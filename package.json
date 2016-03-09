@@ -1,0 +1,26 @@
+{
+  "name": "express-mongoose-rest-generator",
+  "version": "0.1.0",
+  "description": "command line to generate RESTful routes for express and mongoose resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "bin": {
+    "emrg": "./index.js"
+  },
+  "engines": {
+    "node": "5.7.0"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "mongoose",
+    "generator"
+  ],
+  "author": "lesterzone",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "0.5.1"
+  }
+}
